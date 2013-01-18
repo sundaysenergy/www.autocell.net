@@ -1,0 +1,834 @@
+a:link {
+color: #green;
+}
+a:visited {
+color: #green;
+}
+a:hover {
+color: #003300;
+background-color: #d9ebb0;
+text-decoration: none;
+}
+
+
+
+a#home
+{
+ display: block;
+ width: 118px;
+ height: 49px;
+ background-image: url(images/index_06.jpg); no-repeat 0 0;
+}
+
+a#home:hover
+{ 
+ background: url(images/homehover.jpg); no-repeat 0 0;
+}
+
+
+
+
+a#products
+{
+ display: block;
+ width: 118px;
+ height: 49px;
+ background-image: url(images/index_09.jpg); no-repeat 0 0;
+}
+
+a#products:hover
+{ 
+ background: url(images/productshover.jpg); no-repeat 0 0;
+}
+
+
+
+a#cfls
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_10.jpg); no-repeat 0 0;
+}
+
+a#cfls:hover
+{ 
+ background: url(images/cflshover.jpg); no-repeat 0 0;
+}
+
+
+
+a#bige
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_11.jpg); no-repeat 0 0;
+}
+
+a#bige:hover
+{ 
+ background: url(images/bigehover.jpg); no-repeat 0 0;
+}
+
+
+
+#spiral
+{
+  display: block;
+  width: 39px;
+  height: 64.5px;
+  background: url(images/spiral.gif) no-repeat 0 0;
+
+}
+
+#spiral:hover
+{ 
+  background-position: 0 -64.5px;
+}
+
+#spiral span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#globe
+{
+  display: block;
+  width: 63px;
+  height: 54px;
+  background: url(images/globe.gif) no-repeat 0 0;
+
+}
+
+#globe:hover
+{ 
+  background-position: 0 -55px;
+}
+
+#globe span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+#reflector
+{
+  display: block;
+  width: 52px;
+  height: 71.5px;
+  background: url(images/reflector1.gif) no-repeat 0 0;
+
+}
+
+#reflector:hover
+{ 
+  background-position: 0 -71px;
+}
+
+#reflector span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+#bigebulb
+{
+  display: block;
+  width: 45px;
+  height: 81px;
+  background: url(images/bigebulb.gif) no-repeat 0 0;
+
+}
+#bigebulb:hover
+{ 
+  background-position: 0 -81px;
+}
+
+#bigebulb span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#bigebulb2
+{
+  display: block;
+  width: 108px;
+  height: 190px;
+  background: url(images/bigebulb2.gif) no-repeat 0 0;
+
+}
+#bigebulb2:hover
+{ 
+  background-position: 0 -190px;
+}
+
+#bigebulb2 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+
+#alamp
+{
+  display: block;
+  width: 41px;
+  height: 61.5px;
+  background: url(images/alamp.gif) no-repeat 0 0;
+
+}
+
+#alamp:hover
+{ 
+  background-position: 0 -62px;
+}
+
+#alamp span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#candelabra
+{
+  display: block;
+  width: 48px;
+  height: 49px;
+  background: url(images/candelabra.gif) no-repeat 0 0;
+
+}
+
+#candelabra:hover
+{ 
+  background-position: 0 -48px;
+}
+
+#candelabra span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#flashlight1
+{
+  display: block;
+  width: 99px;
+  height: 80.5px;
+  background: url(images/flashlight1.gif) no-repeat 0 0;
+
+}
+
+#flashlight1:hover
+{ 
+  background-position: 0 -80.5px;
+}
+
+#flashlight1 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+#flashlightbig
+{
+  display: block;
+  width: 283px;
+  height: 190px;
+  background: url(images/flashlightbig.gif) no-repeat 0 0;
+
+}
+
+#flashlightbig:hover
+{ 
+  background-position: 0 -190px;
+}
+
+#flashlightbig span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#gu24
+{
+  display: block;
+  width: 37px;
+  height: 61.5px;
+  background: url(images/gu24.gif) no-repeat 0 0;
+
+}
+
+#gu24:hover
+{ 
+  background-position: 0 -62px;
+}
+
+#gu24 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#porch
+{
+  display: block;
+  width: 57px;
+  height: 63px;
+  background: url(images/porch.gif) no-repeat 0 0;
+
+}
+
+#porch:hover
+{ 
+  background-position: 0 -63px;
+}
+
+#porch span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+#torchiere
+{
+  display: block;
+  width: 44px;
+  height: 250px;
+  background: url(images/torchiere.gif) no-repeat 0 0;
+
+}
+
+#torchiere:hover
+{ 
+  background-position: 0 -250px;
+}
+
+#torchiere span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+a#flashlight
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_12.jpg); no-repeat 0 0;
+}
+
+a#flashlight:hover
+{ 
+ background: url(images/flashlighthover.jpg); no-repeat 0 0;
+}
+
+
+
+a#fixtures
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_13.jpg); no-repeat 0 0;
+}
+
+a#fixtures:hover
+{ 
+ background: url(images/fixtureshover.jpg); no-repeat 0 0;
+}
+
+
+
+
+#handheldwater
+{
+  display: block;
+  width: 123px;
+  height: 64px;
+  background: url(images/handheldwater.gif) no-repeat 0 0;
+
+}
+
+#handheldwater:hover
+{ 
+  background-position: 0 -63px;
+}
+
+#handheldwater span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#handheld
+{
+  display: block;
+  width: 269px;
+  height: 148px;
+  background: url(images/handheld.gif) no-repeat 0 0;
+
+}
+
+#handheld:hover
+{ 
+  background-position: 0 -148px;
+}
+
+#handheld span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+
+
+a#showerheads
+{
+ display: block;
+ width: 118px;
+ height: 49px;
+ background-image: url(images/index_14.jpg); no-repeat 0 0;
+}
+
+a#showerheads:hover
+{ 
+ background: url(images/showerheadshover.jpg); no-repeat 0 0;
+}
+
+
+
+a#services
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_15.jpg); no-repeat 0 0;
+}
+
+a#services:hover
+{ 
+ background: url(images/serviceshover.jpg); no-repeat 0 0;
+}
+
+
+
+a#directmail
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_16.jpg); no-repeat 0 0;
+}
+
+a#directmail:hover
+{ 
+ background: url(images/directhover.jpg); no-repeat 0 0;
+}
+
+
+
+a#custom
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_17.jpg); no-repeat 0 0;
+}
+
+a#custom:hover
+{ 
+ background: url(images/customhover.jpg); no-repeat 0 0;
+}
+
+
+
+a#faq
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_18.jpg); no-repeat 0 0;
+}
+
+a#faq:hover
+{ 
+ background: url(images/faqhover.jpg); no-repeat 0 0;
+}
+
+
+
+a#info
+{
+ display: block;
+ width: 118px;
+ height: 49px;
+ background-image: url(images/index_19.jpg); no-repeat 0 0;
+}
+
+a#info:hover
+{ 
+ background: url(images/infohover.jpg); no-repeat 0 0;
+}
+
+
+
+
+a#contact
+{
+ display: block;
+ width: 118px;
+ height: 50px;
+ background-image: url(images/index_20.jpg); no-repeat 0 0;
+}
+
+a#contact:hover
+{ 
+ background: url(images/contacthover.jpg); no-repeat 0 0;
+}
+
+
+
+
+#box1
+{
+  display: block;
+  width: 180px;
+  height: 193px;
+  background: url(extraimages/box1.gif) no-repeat 0 0;
+
+}
+
+#box1:hover
+{ 
+  background-position: 0 -193px;
+}
+
+#box1 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+#box2
+{
+  display: block;
+  width: 180px;
+  height: 201px;
+  background: url(extraimages/box2.gif) no-repeat 0 0;
+
+}
+
+#box2:hover
+{ 
+  background-position: 0 -201px;
+}
+
+#box2 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#box3
+{
+  display: block;
+  width: 180px;
+  height: 209px;
+  background: url(extraimages/box3.gif) no-repeat 0 0;
+
+}
+
+#box3:hover
+{ 
+  background-position: 0 -209px;
+}
+
+#box3 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+#box4
+{
+  display: block;
+  width: 180px;
+  height: 234px;
+  background: url(extraimages/box4.gif) no-repeat 0 0;
+
+}
+
+#box4:hover
+{ 
+  background-position: 0 -234px;
+}
+
+#box4 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#lighttable
+{
+ font-family:arial;
+ text-align: center;
+ font-size:1.2em;
+}
+
+
+
+#productstable
+{
+ font-family:arial;
+ text-align: center;
+ font-size:.7em;
+}
+
+
+
+
+#adobetable
+{
+ font-family:arial;
+ text-align: center;
+}
+
+
+
+#aboutus
+{
+ font-family:arial;
+ text-align: center;
+}
+
+
+
+#estar
+{
+  display: block;
+  width: 82px;
+  height: 82px;
+  background: url(images/estar.gif) no-repeat 0 0;
+
+}
+
+#estar:hover
+{ 
+  background-position: 0 -82px;
+}
+
+#estar span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+#faq
+{
+ font-family:arial;
+ text-align: left;
+ font-size: 1.2em;
+ color: #fff;
+}
+
+
+
+
+
+#flyer
+{
+  display: block;
+  width: 142px;
+  height: 185px;
+  background: url(images/flyer.gif) no-repeat 0 0;
+
+}
+
+#flyer:hover
+{ 
+  background-position: 0 -183px;
+}
+
+#flyer span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+#eg200
+{
+  display: block;
+  width: 135px;
+  height: 163px;
+  background: url(images/eg200button.gif) no-repeat 0 0;
+
+}
+
+#eg200:hover
+{ 
+  background-position: 0 -163px;
+}
+
+#eg200 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#eg150
+{
+  display: block;
+  width: 135px;
+  height: 163px;
+  background: url(images/eg150button.gif) no-repeat 0 0;
+
+}
+
+#eg150:hover
+{ 
+  background-position: 0 -163px;
+}
+
+#eg150 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+#adobe
+{
+  display: block;
+  width: 46px;
+  height: 67px;
+  background: url(images/adobe.gif) no-repeat 0 0;
+
+}
+
+#adobe:hover
+{ 
+  background-position: 0 -67px;
+}
+
+#adobe span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+
+#package
+{
+  display: block;
+  width: 247px;
+  height: 198px;
+  background: url(images/package.gif) no-repeat 0 0;
+
+}
+#package:hover
+{ 
+  background-position: 0 -198px;
+}
+
+#package span
+{
+  position: absolute;
+  top: -999em;
+}
+
+
+
+
+#ldesklamp
+{
+  display: block;
+  width: 152px;
+  height: 184px;
+  background: url(images/ldesklamp.gif) no-repeat 0 0;
+
+}
+#ldesklamp:hover
+{ 
+  background-position: 0 -185px;
+}
+
+#ldesklamp span
+{
+  position: absolute;
+  top: -999em;
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="buttons.css" rel="stylesheet" type="text/css">
+<title>AutoCell Electronics</title>
+    <meta http-equiv="content-type" content="text/html;charset=windows-1252" />
+ 
+
+
+
+<script type="text/javascript"> 
+function addhover() {
+	var navli,i;
+	// loop through all elements in the nav
+	navli = document.getElementById('centeredmenu').getElementsByTagName('li')
+	for(i=0;i<navli.length;i++) {
+		// add the hover functions to the li onmouseover and onmouseout
+		navli[i].onmouseover=function(){hover(this,'hover');};
+		navli[i].onmouseout=function(){hover(this,'');};
+	}
+}
+function hover(o,sClass) {
+	if (o) {
+		o.className = sClass;
+	}
+}
+addhover();
+</script>
+
+
+
+
+
+<style type="text/css">
+/* Main menu settings */
+#centeredmenu {
+	clear:both;
+	float:left;
+	margin:0;
+	padding:0;
+	border-bottom:0px solid #000; 						/* black line below menu */
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif; 				/* Menu font */
+	font-size:90%; 								/* Menu text size */
+	z-index:1000;                     			/* This makes the dropdown menus appear above the page content below */
+	position:relative;
+}
+
+/* Top menu items */
+#centeredmenu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+	position:relative;
+	right:50%;
+}
+#centeredmenu ul li {
+	margin:0 0 0 0px;							/* gap inbtwn each menu option */
+	padding:0;
+	float:left;
+	position:relative;
+	left:50%;
+	top:1px;
+}
+#centeredmenu ul li a {
+	display:block;
+	margin:0;
+	padding:.6em .5em .4em;
+	font-size:1em;
+	line-height:1em;
+	background: url(images/menubarbg.gif) repeat-x;     				/* menu background */
+	width:178px;									/* width of menu button */
+	text-decoration:none;
+	color:#0a3301;					   				/* menu font color */
+	font-weight:bold;
+	border-bottom:0px solid #000;
+}
+#centeredmenu ul li.active a {
+	color:#fff;
+	background:#000;
+}
+#centeredmenu ul li a:hover {
+	background:#36f; 							/* Top menu items background colour */
+	color:#fff;
+	border-bottom:1px solid #03f;
+}
+#centeredmenu ul li:hover a,
+#centeredmenu ul li.hover a { 					               /* This line is required for IE 6 and below */
+	background: url(images/rolloverbar2.gif); 				/* Top menu items background colour */
+	color:#0a3301;       							 /* rollover menu font color */
+	border-bottom:1px solid #000;
+}
+
+
+
+/* Submenu items */
+#centeredmenu ul ul {
+	display:none;                                                          /* Sub menus are hidden by default */
+	position:absolute;
+	top:2em;
+	left:0;
+	border-bottom:1px solid #000;
+	float:left;
+	right:auto;             					      /*resets the right:50% on the parent ul */
+	width:10em;							      /* width of the drop-down menus */
+}
+#centeredmenu ul ul li {
+	left:auto;  							     /*resets the left:50% on the parent li */
+	margin:0; 							     /* Reset the 1px margin from the top menu */
+	clear:left;
+	float:left;
+	width:100%;
+	border-bottom:0px;
+}
+#centeredmenu ul ul li a,
+#centeredmenu ul li.active li a,
+#centeredmenu ul li:hover ul li a,
+#centeredmenu ul li.hover ul li a {					/* This line is required for IE 6 and below */
+	font-size:.8em;
+	font-weight:normal;					       /* resets the bold set for the top level menu items */
+	background:#fff;						/* drop down bg color */
+	color:#444;
+	line-height:1.4em; 						/* overwrite line-height value from top menu */
+	border-bottom:1px solid #000;						/* sub menu item horizontal lines */
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	float:left;
+	width:100%;
+}
+#centeredmenu ul ul li a:hover,
+#centeredmenu ul li.active ul li a:hover,
+#centeredmenu ul li:hover ul li a:hover,
+#centeredmenu ul li.hover ul li a:hover { 				/* This line is required for IE 6 and below */
+	background:#deeeb2; 						/* Sub menu items background colour */
+	color:#000;
+	float:left;
+	border-right:1px solid #000;
+}
+
+/* Flip the last submenu so it stays within the page */
+#centeredmenu ul ul.last {
+	left:auto; 							/* reset left:0; value */
+	right:0; 							/* Set right value instead */
+}
+#centeredmenu ul ul.last li {
+	float:right;
+	position:relative;
+	right:.8em;
+}
+
+/* Make the sub menus appear on hover */
+#centeredmenu ul li:hover ul,
+#centeredmenu ul li.hover ul {						/* This line is required for IE 6 and below */
+	display:block; 							/* Show the sub menus */
+}
+</style>
+
+
+
+
+
+<!-- Start Menu -->
+
+<div align="center">
+<a href="index.html"><img src="images/banner.gif" border="0"></a>
+</div>
+<div id="centeredmenu">
+<ul class="centeredmenu">
+<div align="center">
+	<li class="centeredmenu"><a class="centeredmenu" href="index.html">Home</a></li>
+
+	<li class="centeredmenu"><a class="centeredmenu" href="products.html"><span>Products</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+
+	<ul class="">
+		<li class="centeredmenu"><a class="centeredmenu"><b><font size="+1">CFL</font></b></a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="alamp.html">A-Lamp</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="bige.html">Big "E" Bulb</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="candelabra.html">Candelabra</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="dimmable.html">Dimmable</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="globe.html">Globe</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="gu24.html">GU24</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="reflector.html">Reflector</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="spiral.html">Spiral</a></li>
+
+		<li class="centeredmenu"><a class="centeredmenu"><b><font size="+1">FLASHLIGHT</font></b></a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="flash.html">LED Flashlight</a></li>
+
+		<li class="centeredmenu"><a class="centeredmenu"><b><font size="+1">FIXTURES</font></b></a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="desklamp.html">LED Desk Lamp</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="porch.html">Porch Lamp</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="torchiere.html">Torchiere</a></li>
+
+		<li class="centeredmenu"><a class="centeredmenu"><b><font size="+1">SHOWERHEADS</font></b></a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="showerheads.html">Showerheads</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+	<li class="centeredmenu"><a class="centeredmenu" href="services.html"><span>Services</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+
+	<ul class="">
+		<li class="centeredmenu"><a class="centeredmenu" href="directmail.html">Direct Mail</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="custom.html">Custom Packaging</a></li>
+	</ul>
+	<li class="centeredmenu"><a class="centeredmenu" href="support.html"><span>Support</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul class="centeredmenu">
+		<li class="centeredmenu"><a class="centeredmenu" href="faq.html">FAQ</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="terms.html">Key Terms</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="disposal.html">Disposal</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="facts.html">Flyers and Inserts</a></li>
+		<li class="centeredmenu"><a class="centeredmenu" href="contact.html">Contact Us</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+	<li class="centeredmenu"><a class="centeredmenu" href="aboutus.html">About Us</a></li>
+</ul>
+<!-- End MENU -->
+
+
+</head>
+
+<body>
+
+
+<br /><br /><br /><br />
+
+
+  <div align="center">
+			<table id="faq" width="600" background="images/roundedred.jpg">
+			<tr><td>
+				<font size="+2" color="white">
+				<div align="center">
+					<b>FAQ</b>
+				</div>
+				</font>
+<br />
+			</td></tr>
+			<tr><td>
+				<b>Where can I buy AutoCell Electronics' products?</b>
+			</td></tr>
+			<tr><td>
+				You may buy directly from AutoCell for your home, office or anywhere high-quality CFLs are desired.  Orders can be placed by contacting AutoCell directly at Phone: (888) 393-6668 or by submitting an order through our online <a href="contact.html">contact form</a>.
+<br /><br />
+			</td></tr>
+			<tr><td>
+				<b>What is a CFL and why should I choose a CFL over Incandescent bulb?</b>
+			</td></tr>
+			<tr><td>
+				CFL stands for Compact Fluorescent Light Bulbs. This kind of light bulb saves money and helps improve the environment. CFL's lasts up to 10 times longer than traditional light bulbs (also known as incandescent) and also help reduce the amount of mercury released into the environment. Since a CFL lasts 10 times longer than traditional bulbs, it decreases waste. It also helps prevent greenhouse gas emissions, which lead to changes in the global climate.
+<br /><br />
+			</td></tr>
+			<tr><td>
+				<b>Do your lights have warranties?</b>
+			</td></tr>
+			<tr><td>
+				Each bulb and product has a warranty.  The warranty information is on each box.
+<br /><br />
+			</td></tr>
+			<tr><td>
+				<b>What are the risks associated with Mercury? Should I be concerned using CFL's in my home?</b>
+			</td></tr>
+			<tr><td>
+				CFL's are safe to use in your home. No Mercury is released when the bulbs are in use and they pose no danger when used properly.
+<br /><br />
+			</td></tr>
+			<tr><td>
+				<b>How to dispose of CFL's after they have burnt out?</b>
+			</td></tr>
+			<tr><td>
+				Please DO NOT throw used or broken CFL's into the trash. There are rules and regulations on how to dispose CFLs. Please visit <a href="http://www.lamprecycle.org/" target="_blank"> www.LAMPRECYCLE.org</a> or call 1-800-clean-up to find up to date directions on the disposal of CFLs.
+<br /><br />
+			</td></tr>
+			<tr><td>
+				<b>What should I do if my CFL breaks?</b>
+			</td></tr>
+			<tr><td>
+			CFL's contain small amounts of Mercury.  Please do not throw unused, unbroken, used or broken CFL's into the trash.	Please visit <a href="www.lamprecycle.org" target="_blank">www.lamprecycle.org</a> or the
+<a href="disposal.html">disposal</a> tab for more information.  Thank you for making the world a brighter place!
+<br /><br />
+			</td></tr>
+			<tr><td>
+				<b>What do some of these terms mean? Such as CRI, CCT, etc...</b>
+			</td></tr>
+			<tr><td>
+				Please go <a href="terms.html">here</a> for definitions and explanations of different terms.
+<br />
+			</td></tr>
+			</table>
+			
+		   </div>
+
+<br /><br />
+
+</body>
+</html>
